@@ -1,2 +1,9 @@
 ---
 # tasks file for blog-infra
+- name: "Ensure blog pubkey is present in DO"
+  community.digitalocean.digital_ocean:
+    state: "{{ blog_state }}"
+    api_token: "{{ do_api_key }}"
+    command: ssh
+    name: "{{ ssh_key_email }}"
+    ssh_pub_key: "{{ blog_pubkey_contents }}"
