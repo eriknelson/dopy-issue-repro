@@ -11,13 +11,6 @@ MSG:
 dopy >= 0.3.2 required for this module
 ```
 
-# Relevant version info
-
-OS: Arch Linux
-Python: pyenv installed 3.10.8
-pip: `pip 22.2.2 from /home/ernelson/.pyenv/versions/3.10.8/lib/python3.10/site-packages/pip (python 3.10)`
-virtualenv: `virtualenv 20.17.1 from /home/ernelson/.pyenv/versions/3.10.8/lib/python3.10/site-packages/virtualenv/__init__.py`
-
 # Reproducer Steps
 
 * Create a file at the checkout root called `vault-pass.txt` with a desired vault passphrase.
