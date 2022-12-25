@@ -1,0 +1,7 @@
+---
+- name: "Running localhost"
+  hosts: localhost
+  vars:
+    - blog_pubkey_contents: "{{ lookup('ansible.builtin.file', ssh_key_public_file)}}"
+  roles:
+    - name: blog-infra
