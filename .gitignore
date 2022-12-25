@@ -1,0 +1,4 @@
+vault-pass.txt
+my_vars.yml
+my_vars.*.yml
+*.vault
