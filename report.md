@@ -351,10 +351,10 @@ YAML_FILENAME_EXTENSIONS(default) = ['.yml', '.yaml', '.json']
 ```
 
 ##### OS / ENVIRONMENT
-OS: Arch Linux
-Python: pyenv installed 3.10.8
-pip: `pip 22.2.2 from /home/ernelson/.pyenv/versions/3.10.8/lib/python3.10/site-packages/pip (python 3.10)`
-virtualenv: `virtualenv 20.17.1 from /home/ernelson/.pyenv/versions/3.10.8/lib/python3.10/site-packages/virtualenv/__init__.py`
+* OS: Arch Linux
+* Python: pyenv installed 3.10.8
+* pip: `pip 22.2.2 from /home/ernelson/.pyenv/versions/3.10.8/lib/python3.10/site-packages/pip (python 3.10)`
+* virtualenv: `virtualenv 20.17.1 from /home/ernelson/.pyenv/versions/3.10.8/lib/python3.10/site-packages/virtualenv/__init__.py`
 
 ##### STEPS TO REPRODUCE
 See https://github.com/eriknelson/dopy-issue-repro for a repository with instructions
